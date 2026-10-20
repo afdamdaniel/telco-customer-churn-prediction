@@ -38,12 +38,6 @@ The data file `Telco_customer_churn.xlsx` is **not** in this repo. Download it f
 
 Test set: 1,409 customers (374 churned, 1,035 stayed).
 
-| Model | Accuracy | Churn precision | Churn recall | Churn F1 |
-|---|---|---|---|---|
-| Logistic Regression (balanced class weights) | 0.754 | 0.53 | 0.76 | 0.62 |
-| Balanced Random Forest | 0.769 | 0.55 | 0.72 | 0.62 |
-| XGBoost | 0.786 | 0.61 | 0.53 | 0.57 |
-
 Confusion matrix counts:
 
 | Model | True negative | False positive | False negative | True positive |
