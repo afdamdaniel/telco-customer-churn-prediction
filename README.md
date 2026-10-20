@@ -48,8 +48,6 @@ Confusion matrix counts:
 
 A false positive is a customer who stayed but was predicted to leave. A false negative is a customer who left but was predicted to stay.
 
-The XGBoost precision and F1 are worked out from its confusion matrix. The notebook only prints its accuracy.
-
 ### Takeaways
 
 - Logistic Regression finds the most churners (283 of 374).
